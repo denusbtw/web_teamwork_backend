@@ -122,5 +122,5 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
+    "https://web-teamwork-frontend.onrender.com",
 ]
