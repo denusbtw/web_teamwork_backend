@@ -4,7 +4,7 @@ import dj_database_url
 
 from .base import *
 
-ALLOWED_HOSTS = ["localhost"]
+ALLOWED_HOSTS = ["web-teamwork-backend.onrender.com"]
 
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
