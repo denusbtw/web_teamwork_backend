@@ -124,3 +124,8 @@ REST_FRAMEWORK = {
 CORS_ALLOWED_ORIGINS = [
     "https://web-teamwork-frontend.onrender.com",
 ]
+
+CORS_ALLOW_HEADERS = ["*"]
+CORS_ALLOW_ALL_HEADERS = True
+
+CORS_ALLOW_CREDENTIALS = True
