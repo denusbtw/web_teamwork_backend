@@ -9,5 +9,12 @@
       <working-dir>$ProjectFileDir$</working-dir>
       <time-zone>Europe/Kyiv</time-zone>
     </data-source>
+    <data-source source="LOCAL" name="railway@nozomi.proxy.rlwy.net" uuid="13425ef6-1aac-49f0-b3f6-161e5f17fdec">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://nozomi.proxy.rlwy.net:27658/railway</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
